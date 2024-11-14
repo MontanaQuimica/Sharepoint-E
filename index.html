@@ -11,22 +11,21 @@
             <div class="footer-addresses">             
               <ul>
                 <style>
-                    /* CSS embutido para alinhar os itens na horizontal */
+                    /* CSS para alinhar os itens na horizontal sem quebrar a linha */
                     .footer-addresses ul {
-                      display: flex;           /* Exibe os itens na horizontal */
-                      flex-direction: row;     /* Garante que os itens fiquem na linha */
-                      justify-content: space-between; /* Espaçamento entre os itens */
-                      padding: 0;
-                      list-style: none;        /* Remove os marcadores padrão da lista */
-                      flex-wrap: nowrap;  /* Impede a quebra de linha */
+                        display: flex;             /* Exibe os itens na horizontal */
+                        flex-direction: row;       /* Garante que os itens fiquem na linha */
+                        justify-content: space-between; /* Espaçamento entre os itens */
+                        padding: 0;
+                        list-style: none;          /* Remove os marcadores padrão da lista */
+                        flex-wrap: nowrap;         /* Impede a quebra de linha */
                     }
-
-                    .footer-addresses address,
-                    .footer-addresses a {
-                      white-space: nowrap; /* Impede a quebra de linha */
-                    }                   
-           
-                  </style>
+                
+                    .footer-addresses li {
+                        white-space: nowrap;       /* Impede a quebra de linha dentro de cada item */
+                    }
+                </style>
+                
                                 <li>
                     <h6>Montana Química São Paulo</h6>
   
