@@ -1,15 +1,8 @@
 <html lang="pt-BR"><head>
-
     <!-- Styles -->
     <link rel="stylesheet" href="https://montana.com.br/wp-content/themes/montana/css/style.min.css?v=2.4">
-  <style>
-  /* Adicione este CSS embutido */
-  .home-segments-nav ul {
-      display: flex;
-      flex-direction: row;  /* Força os itens a ficarem na horizontal */
-      flex-wrap: nowrap;  /* Impede a quebra de linha */
-  }
-</style>
+  
+
     <header>  
         <div class="space-0 space-lg-20"></div>
   
@@ -17,6 +10,25 @@
           <div class="grid-12">
             <div class="footer-addresses">             
               <ul>
+                <style>
+                    /* CSS embutido para alinhar os itens na horizontal */
+                    .footer-addresses ul {
+                      display: flex;           /* Exibe os itens na horizontal */
+                      flex-direction: row;     /* Garante que os itens fiquem na linha */
+                      justify-content: space-between; /* Espaçamento entre os itens */
+                      padding: 0;
+                      list-style: none;        /* Remove os marcadores padrão da lista */
+                    }
+                  
+                    .footer-addresses ul li {
+                      flex: 1;                 /* Cada item ocupa o mesmo espaço */
+                      margin-right: 20px;      /* Espaçamento entre os itens (ajuste conforme necessário) */
+                    }
+                  
+                    .footer-addresses ul li:last-child {
+                      margin-right: 0;         /* Remove o espaçamento do último item */
+                    }
+                  </style>
                                 <li>
                     <h6>Montana Química São Paulo</h6>
   
